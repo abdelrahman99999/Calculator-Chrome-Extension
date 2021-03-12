@@ -1,0 +1,23 @@
+{
+    "manifest_version":2,
+    "name":"budget manger",
+    "version":"1.0",
+    "description":"this extension tracks your overall spendings",
+    "icons":{
+        "16":"icon16.png",
+        "48":"icon48.png",
+        "128":"icon128.png"
+    },
+
+    "options_page":"options.html",
+    
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_icon":"icon16.png"
+    },
+    "permissions":[
+        "storage",
+        "notifications"
+    ]
+
+}
